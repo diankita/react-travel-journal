@@ -1,0 +1,82 @@
+#root {
+  max-width: 550px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+  background: #f9f4ff;
+  --main-color: #251d52;
+  --secondary-color: #885df1;
+}
+
+.navbar {
+  background: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  padding: 16px 0;
+  margin-bottom: 44px;
+}
+
+.navbar--logo {
+  width: 24px;
+}
+
+.navbar--title {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+  margin: 0;
+}
+
+.card {
+  padding: 0 40px 36px;
+  color: var(--main-color);
+  display: flex;
+  gap: 20px;
+}
+
+.card--photo {
+  height: 168px;
+  max-width: 125px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card--info {
+  font-weight: 400;
+  font-size: 10.24px;
+  padding: 15px 0;
+}
+
+.card--arrow-symbol {
+  color: var(--secondary-color);
+  margin-right: 4px;
+}
+
+.card--country {
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  margin-right: 12px;
+}
+
+.card--googleLink {
+  color: #918e9b;
+}
+
+.card--title {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 5px 0;
+}
+
+.card--dates {
+  font-weight: 700;
+  margin: 1.5em 0 10px;
+}
+
+.card--description {
+  line-height: 1.5em;
+  margin: 0;
+}
